@@ -1,0 +1,364 @@
+/*-- Social media buttons --*/
+
+.alicee-socialmedia-buttons .fa {
+    font-size: 2.25rem;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 0px 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.fa-facebook {
+    width: 11px;
+    height: 13px;
+}
+
+.fa:hover {
+    opacity: 0.3;
+}
+
+/* MAIN NAV BAR */ 
+
+/* TOP */
+.alicee-main-nav-top {
+    background-color: rgb(161, 216, 238);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-style: normal;
+}
+
+.alicee-main-nav-top ul {
+    margin: 0px auto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.alicee-main-nav-top a { /* a for the names of the links i.e. 'home' 'about'*/
+    opacity: 0.6;
+    color: rgb(79, 41, 88);
+    padding: 1rem 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.alicee-main-nav-top a:hover {
+    opacity: 0.3;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 0px;
+}
+
+/*FOOTER*/
+.alicee-main-footer {
+    background-color: rgb(161, 216, 238);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.alicee-main-footer ul {
+    margin: 0px auto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.alicee-main-footer .alicee-socialmedia-buttons .fa {
+    color: rgb(79, 41, 88);
+    padding: 0px 30px;
+}
+
+.alicee-main-footer .alicee-socialmedia-buttons a { 
+    opacity: 0.6;
+    color: rgb(79, 41, 88);
+    cursor: pointer;
+    text-decoration: none;
+    justify-self: center;
+    padding: 0px 30px;
+}
+
+.alicee-main-footer .alicee-socialmedia-buttons .fa:hover,
+.alicee-main-footer .alicee-socialmedia-buttons a:hover {
+    opacity: 0.3;
+}
+
+/* END OF MAIN NAV BAR */ 
+/* MAIN HEADER */
+.alicee-main-header__block-image .alicee-socialmedia-buttons {
+    padding: 2rem;
+}
+
+.alicee-main-header ul {
+    margin: 0px 0px;
+}
+/* END OF MAIN HEADER */
+
+/*-- END OF Social media buttons --*/
+
+body {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 100%;
+}
+
+.alicee-main-header {
+    font-family: Helvetica;
+    background-color: rgb(201, 161, 167);
+    /*padding: 1rem;*/
+    justify-content: center;
+    text-align: center;
+}
+
+.alicee-main-header__bkg-img {
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-repeat: repeat-x;
+    /*background-size: cover;*/
+}
+
+.alicee-main-header h1 {
+    font-size: 60px;
+    color: rgb(241, 236, 241);
+    margin: 0rem;
+    padding: 2rem;
+    font-weight: 400;
+   
+    /*text-shadow: 2px 2px rgb(114, 93, 42);*/
+}
+
+.alicee-main-header__img {
+    display: block;
+    margin: 0px 0px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    padding: 0rem 0rem;
+}
+
+.alicee-main-header__img img {
+    border: 5px solid rgb(241, 236, 241);
+    align-self: center;
+    width: 20%;
+    height: 20%;
+}
+
+/*.alicee-main-header__img img:hover {
+    opacity: 0.7;
+} AT THE MOMENT DONT NEED IMAGE HOVER*/
+
+/*.alicee-main-header h1:hover {
+    opacity: 0.6;
+} AT THE MOMENT DONT NEED IMAGE HOVER*/
+
+.alicee-resize-center {
+    display: block;
+    margin: 0 auto;
+    max-width:30%;
+    max-height:30%;
+}
+
+ul.posts { 
+    margin: 0px auto; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+/* MAIN BODY */
+.alicee-main-body {
+    font-family: Helvetica;
+}
+
+.alicee-main-body__bkg-img {
+    background: rgba(0, 0, 0, 0, 0.9);
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alicee-main-body__bkg-img__cover {
+    background-color: seashell;
+    opacity: 0.8;
+}
+
+/* Main body*/
+.alicee-main-body__introduction {
+    opacity: 1;
+    padding: 2% 25% 2% 25%;
+    text-align: justify;
+    color: rgb(32, 8, 39);
+
+}
+
+
+.alicee-main-body__introduction h2 {
+    color: rgb(96, 44, 112);
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.alicee-main-body__introduction p {
+    font-size: 20px;
+}
+
+.alicee-main-body__introduction a {
+    color: rgb(124, 7, 160);
+}
+
+
+.alicee-main-body__introduction a:hover {
+    opacity: 0.6;
+}
+
+/* RESPONSIVE */ 
+@media screen and (max-width: 1440px) and (min-width: 768px)  {
+    .alicee-main-body__introduction {
+        padding: 2% 10% 2% 10%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px)  {
+    .alicee-main-body__introduction {
+        padding: 2% 2% 2% 2%;
+        text-align: left;
+    }
+}
+
+
+/* END MAIN BODY */
+/* DEFAULT STUFF */
+/* header */
+.default-main-header {
+    font-family: Helvetica;
+    background-color: rgb(201, 161, 167);
+    /*padding: 1rem;*/
+    justify-content: center;
+    text-align: center;
+}
+
+.default-main-header__bkg-img {
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-repeat: repeat-x;
+    /*background-size: cover;*/
+}
+
+.default-main-header h1 {
+    font-size: 60px;
+    color: rgb(241, 236, 241);
+    margin: 0rem;
+    padding: 2rem;
+    font-weight: 400;
+   
+    /*text-shadow: 2px 2px rgb(114, 93, 42);*/
+}
+
+.default-main-header__img {
+    display: block;
+    margin: 0px 0px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    padding: 0rem 0rem;
+}
+
+.default-main-header__img img {
+    border: 5px solid rgb(241, 236, 241);
+    align-self: center;
+    width: 20%;
+    height: 20%;
+}
+
+
+/* end header*/
+/* main default container */
+.default-container {
+    opacity: 1;
+    padding: 2% 25% 2% 25%;
+    text-align: justify;
+    color: rgb(32, 8, 39);
+}
+
+.default-container h1 {
+    color: rgb(124, 7, 160);
+    font-size: 2.25rem;
+}
+
+.default-container h2 {
+    color: rgb(96, 44, 112);
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.default-container p {
+    color: rgb(124, 7, 160);
+    font-size: 20px;
+}
+
+.default-container a {
+    color: rgb(124, 7, 160);
+    font-size: 20px;
+}
+
+.default-container a:hover {
+    opacity: 0.6;
+}
+ 
+/* RESPONSIVE  default */ 
+@media screen and (max-width: 1440px) and (min-width: 768px)  {
+    .default-container {
+        padding: 2% 5% 2% 5%;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 375px)  {
+    .default-container {
+        padding: 2% 10% 2% 10%;
+        text-align: left;
+    }
+}
+
+/* END DEFAULT MAIN BODY */
